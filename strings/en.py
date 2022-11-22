@@ -217,7 +217,7 @@ menu_csv = "📄 .csv"
 menu_edit_admins = "🏵 Edit Managers"
 
 # Menu: language
-menu_language = "🇬🇧 Language"
+menu_language = ""
 
 # Emoji: unprocessed order
 emoji_not_processed = "*️⃣"
