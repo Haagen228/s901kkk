@@ -51,7 +51,7 @@ con_pool_size = 10
 currency = "USD"
 # Currency exp parameter. You can find that on https://core.telegram.org/bots/payments/currencies.json.
 # It has a value of 2 in most currencies (EUR, USD, GBP...)
-currency_exp = 1
+currency_exp = 2
 # Currency symbol which is show to the client users when displaying prices and transaction values
 # If not defined here, default language specific currency symbol from strings would be used
 currency_symbol = "$"
@@ -62,7 +62,7 @@ currency_symbol = "$"
 # Display the "With cash" option in the Add Credit menu
 enable_pay_with_cash = false
 # Display the "Create transaction" option in the Manager menu
-enable_create_transaction = false
+enable_create_transaction = true
 # Customize the cash payment text in the strings files!
 
 
