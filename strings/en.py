@@ -362,7 +362,7 @@ bot_info = 'Shop by Twitch 24x7' \
 
 # Help: guide
 help_msg = "How to buy?\n"
-           "И тут ссылочка на телеграф как купить"
+           "https://github.com/Steffo99/greed/wiki"
 
 # Help: contact shopkeeper
 contact_shopkeeper = "Currently, the staff available to provide user assistance is composed of:\n" \
