@@ -2,7 +2,7 @@
 # Can be edited, but DON'T REMOVE THE REPLACEMENT FIELDS (words surrounded by {curly braces})
 
 # Currency symbol
-currency_symbol = "$"
+currency_symbol = "€"
 
 # Positioning of the currency symbol
 currency_format_string = "{symbol} {value}"
@@ -54,12 +54,14 @@ csv_caption = "A 📄 .csv file containing all transactions stored in the bot da
 
 # Conversation: the start command was sent and the bot should welcome the user
 conversation_after_start = "Hello!\n" \
-                           "Welcome to Twitch24x7!\n" \                          
-                           "Subscribe to our channel https://t.me/twitch24x7."
+                           "Welcome to greed!\n" \
+                           "This is the 🅱️ <b>Beta</b> version of the software.\n" \
+                           "It is fully usable, but there may be some bugs are still present.\n" \
+                           "If you find any, please report them at https://github.com/Steffo99/greed/issues."
 
 # Conversation: to send an inline keyboard you need to send a message with it
 conversation_open_user_menu = "What would you like to do?\n" \
-                              "💵 You have <b>{credit}</b> in your wallet.\n" \
+                              "💰 You have <b>{credit}</b> in your wallet.\n" \
                               "\n" \
                               "<i>Press a key on the bottom keyboard to select an operation.\n" \
                               "If the keyboard has not opened, you can open it by pressing the button with four small" \
@@ -123,7 +125,7 @@ conversation_switch_to_user_mode = " You are switching to 👤 Customer mode.\n"
                                    "If you want to go back to the 💼 Manager menu, restart the conversation with /start."
 
 # Notification: the conversation has expired
-conversation_expired = "⌛️  I haven't received any messages in a while, so I closed the conversation to save" \
+conversation_expired = "🕐  I haven't received any messages in a while, so I closed the conversation to save" \
                        " resources.\n" \
                        "If you want to start a new one, send a new /start command."
 
@@ -131,13 +133,13 @@ conversation_expired = "⌛️  I haven't received any messages in a while, so I
 menu_order = "🛒 Order products"
 
 # User menu: order status
-menu_order_status = "🛍️ My orders"
+menu_order_status = "🛍 My orders"
 
 # User menu: add credit
 menu_add_credit = "💵 Add funds"
 
 # User menu: bot info
-menu_bot_info = "👾Our projects👾"
+menu_bot_info = "ℹ️ Bot info"
 
 # User menu: cash
 menu_cash = "💵 With cash"
@@ -215,7 +217,7 @@ menu_csv = "📄 .csv"
 menu_edit_admins = "🏵 Edit Managers"
 
 # Menu: language
-menu_language = ""
+menu_language = "🇬🇧 Language"
 
 # Emoji: unprocessed order
 emoji_not_processed = "*️⃣"
@@ -353,9 +355,10 @@ notification_transaction_created = "ℹ️  A new transaction has been applied t
 refund_reason = "Refund reason:\n" \
                 "{reason}"
 
-# Info: informazioni sul bot  (Our projects)
-bot_info = 'Our <a href="https://twitch24x7.com/">site</a>,' \n' \
-           'Our Telegram <a href="https://t.me/twitch24x7/">Channel</a>,' \n' \
+# Info: informazioni sul bot
+bot_info = 'This bot is using <a href="https://github.com/Steffo99/greed">greed</a>,' \
+           ' a framework by @Steffo for Telegram payments released under the' \
+           ' <a href="https://github.com/Steffo99/greed/blob/master/LICENSE.txt">' \
            'Affero General Public License 3.0</a>.\n'
 
 # Help: guide
