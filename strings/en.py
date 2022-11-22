@@ -2,7 +2,7 @@
 # Can be edited, but DON'T REMOVE THE REPLACEMENT FIELDS (words surrounded by {curly braces})
 
 # Currency symbol
-currency_symbol = "€"
+currency_symbol = "$"
 
 # Positioning of the currency symbol
 currency_format_string = "{symbol} {value}"
@@ -54,10 +54,10 @@ csv_caption = "A 📄 .csv file containing all transactions stored in the bot da
 
 # Conversation: the start command was sent and the bot should welcome the user
 conversation_after_start = "Hello!\n" \
-                           "Welcome to greed!\n" \
-                           "This is the 🅱️ <b>Beta</b> version of the software.\n" \
-                           "It is fully usable, but there may be some bugs are still present.\n" \
-                           "If you find any, please report them at https://github.com/Steffo99/greed/issues."
+                           "Welcome to Twitch24x7 shop!\n" \
+                           "Out chat https://t.me/twitch24x7\n" \
+                           "Out site https://twitch24x7.com\n" \
+                           "Our discord https://discord.gg/ztUXNYhj"
 
 # Conversation: to send an inline keyboard you need to send a message with it
 conversation_open_user_menu = "What would you like to do?\n" \
@@ -356,14 +356,12 @@ refund_reason = "Refund reason:\n" \
                 "{reason}"
 
 # Info: informazioni sul bot
-bot_info = 'This bot is using <a href="https://github.com/Steffo99/greed">greed</a>,' \
-           ' a framework by @Steffo for Telegram payments released under the' \
-           ' <a href="https://github.com/Steffo99/greed/blob/master/LICENSE.txt">' \
-           'Affero General Public License 3.0</a>.\n'
+bot_info = 'Bot by s901k' \
+           'Welcome!\n'
 
 # Help: guide
-help_msg = "greed's guide is available at this address:\n" \
-           "https://github.com/Steffo99/greed/wiki"
+help_msg = "How to buy?\n" \
+           "https://twitch24x7.com/"
 
 # Help: contact shopkeeper
 contact_shopkeeper = "Currently, the staff available to provide user assistance is composed of:\n" \
