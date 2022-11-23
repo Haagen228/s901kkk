@@ -51,7 +51,7 @@ con_pool_size = 10
 currency = "USD"
 # Currency exp parameter. You can find that on https://core.telegram.org/bots/payments/currencies.json.
 # It has a value of 2 in most currencies (EUR, USD, GBP...)
-currency_exp = 2
+currency_exp = 1
 # Currency symbol which is show to the client users when displaying prices and transaction values
 # If not defined here, default language specific currency symbol from strings would be used
 currency_symbol = "$"
@@ -73,9 +73,9 @@ enable_create_transaction = true
 # credit_card_token = ""
 credit_card_token = "632593626:TEST:sandbox_i71541179749"
 # Minimum wallet payment accepted (in miniumum currency units, $1.00 = 100 units)
-min_amount = 100
+min_amount = 1000
 # Maximum wallet payment accepted (in miniumum currency units, $1.00 = 100 units)
-max_amount = 100000
+max_amount = 10000
 # The preset selections that can be made when adding credit to the wallet with a credit card
 # Presets are pipe-separated |, and should never be outside the bounds provided by the min_amount and max_amount options
 payment_presets = [5.00, 10.00, 50.00, 100.00]
